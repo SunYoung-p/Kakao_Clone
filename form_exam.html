@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="kr">
+    <head>
+        <title>Form tag example</title>
+        <meta name="description" content="my website" />
+        <meta charset="utf-8" />
+    </head>
+    <body>
+        <form> <!-- input 에 들어가는 attribute 는 
+                    html tag mdn 검색 후 나오는 홈페이지 설명을 참조. 
+       
+             <input type="color"/>
+             <input type="password"/>
+              -->
+               <!--placeHolder 는 입력 예 표시-->
+               <!-- required 를 넣어주면 필수 입력 란이 되어 알람이 뜬다-->
+               <!-- minlength 10글자 충족이 안 되면 알람이 뜬다-->
+
+               <label for="website">WebSite</label>
+               <input required placeholder="URL" id="website" type="email"/>
+               <input type="submit" value="Create Account"/>
+               <!--
+               <label for="profile">Profile Photo</label>
+                <input id="profile" type="file" accept=".pdf">
+
+                <label for="first-name">First Name</label>
+              <input id="first-name" required placeholder="Name" type="text"/>
+              <input required placeholder="Last Name"  type="text"/>
+              <input required placeholder="Username"  type="text"/>
+              <input required placeholder="Password" minlength="10" type="password"/>
+              <input type="submit"  value="Create Account">
+              -->
+        </form>
+    </body>
+</html>
