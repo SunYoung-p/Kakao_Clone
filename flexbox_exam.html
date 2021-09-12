@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="kr">
+    <head>
+        <title>Classes Example</title>
+        <style>
+            body{
+                height: 50vh;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin: 20px;
+                border: 5px solid black;
+            }
+            div{
+                width: 300px;
+                height: 300px;
+                background-color: teal;
+            }
+            .second{
+                background-color: tomato;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- justify-content : 주축
+        align-items : 교차축 -> 수직 수평으로 구분할 수 없는 이유는, 주축이 수직 축이 될 수도 있기 때문에
+    heightL 100vh 에서 vh는 view height 이다. screen height 이기도 한데 100 은 100% (꽉 차는 수치) 를 말한다. 
+
+    flex-wrap : wrap ==> 익스플로러 창의 크기가 바뀔 때 box 넓이도 바뀌는데, wrap을 넣어주면 초기값을 그대로 유지한다.
+    flex-direction : coulmn, row, column-reverse, row-reverse 등을 사용하면 주축과 교차축을 바꿀 수 있고, 시작 box와 끝 box를 조정할 수 있다.
+-->
+        <div></div>
+        <div class="second"></div>
+        <div></div>
+        <div class="second"></div>
+        <div></div>
+    </body>
+</html>
