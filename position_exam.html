@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="kr ">
+    <head>
+        <title>Position Tag Example</title>
+        <style>
+            body{
+                height: 1000vh;
+            }
+            div{
+                width: 200px;
+                height: 200px;
+                background-color: tomato;
+            }
+            .second{
+                top: 5px; 
+                left:70px;
+                position: fixed;
+                background-color: teal;
+            }
+        </style>
+        <!-- position 에 fixex 를 넣고 top 5px 을 넣어주면, div 1과 div 2는 서로 다른 레이어에 위치하게 된다.
+        그래서 서로 겹쳐지게 된다. top/left/right/bottom 으로 위치 세부 조정이 가능-->
+    </head>
+    <body>
+        <div> </div>
+        <div class="second"> </div>
+    </body>
+</html>
