@@ -12,10 +12,16 @@
             span:last-child{
                 background-color: yellow;
             }
-            
             span{
                 margin: 5px;
             }
+            input{
+                border: 2px solid whitesmoke;
+            } 
+            input:required{
+                border-color: red;
+            }
+            
         </style>
     </head>
     <body>
@@ -35,5 +41,8 @@
         <span>Hello !</span>
         <span>Hello !</span>
         <span>Hello !</span>
+        <br><br>
+        <input type="text" placeholder="username"/>
+        <input type="password" required placeholder="password"/>
     </body>
 </html>
