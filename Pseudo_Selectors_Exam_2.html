@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="kr">
+    <head>
+        <title>Pseudo Selector Exam 2</title>
+    </head>
+    <style>
+        body{
+            margin: 20px;
+        }
+        span{
+            color:tomato;
+            background-color: gold;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        p span{
+            color: white;
+        }
+        p + span{
+            color: teal;
+        }
+    </style>
+    <body>
+        <!--
+            p span : p 태그 안에 있는 span 태그를 말함.
+            <body>
+                ....
+                <span>
+            
+            p > span : p 태그 바로 밑에 있는 span 태그를 말함.
+            <body>
+                <span>
+
+            p + span : p 태그 다음에 오는 span 태그를 말함.
+            <body>
+            <span>
+        -->
+        <p>
+            This is example paragraph. we can write text on this tag anyway.
+            if you want to edit text, you can do it whenever.
+            <span>This is Span tag in p tang</span>
+        </p>
+        <span> Hello pseduo selector Example !</span>
+    </body>
+</html>

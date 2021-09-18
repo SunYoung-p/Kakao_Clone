@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="kr">
+    <head>
+        <title>Pseudo Selectors Exam</title>
+        <style>
+            span:nth-child(2n+1){
+                background-color: green;
+            }
+            span:first-child{
+                background-color: palevioletred;
+            }
+            span:last-child{
+                background-color: yellow;
+            }
+            
+            span{
+                margin: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- 10개의 span tag 가 있다. -->
+        <!-- 10개 중 첫 번째/마지막 번 째/ 홀수 번 째 등에 따로 속성을 지정하고 싶을 때,
+         최소 3개의 class나 id를 만들어야 하는데, 이것보다는 위에 처럼 pseduo selectors 를 쓰는 게 좋다.
+         html tag는 건드리는 일도 없고, tag 가 늘어나도 nth-child를 쓰면 규칙적으로 속성 지정이 가능하다.
+         2n+1 은 3배수 번째에 있는 애들만 속성을 지정하라는 뜻이다. (3번째, 6번째, 9번째 ....) 
+        -->
+        <span>Hello !</span>
+        <span>Hello !</span>
+        <span>Hello !</span>
+        <span>Hello !</span>
+        <span>Hello !</span>
+        <span>Hello !</span>
+        <span>Hello !</span>
+        <span>Hello !</span>
+        <span>Hello !</span>
+        <span>Hello !</span>
+    </body>
+</html>
