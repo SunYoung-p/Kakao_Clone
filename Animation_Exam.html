@@ -12,8 +12,11 @@
       0% {
         opacity: 0;
       }
-      100% {
+      50% {
         opacity: 1;
+      }
+      100% {
+        opacity: 0;
       }
     }
     body {
@@ -31,7 +34,7 @@
       transform: translateY(var(--Main-Word-transformY));
     }
     div > span {
-      animation: SPAN_ANIMATION ease-in-out 3s;
+      animation: SPAN_ANIMATION ease 3s infinite;
       font-size: 150px;
       color: red;
       font-family: cursive;
