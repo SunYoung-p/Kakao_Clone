@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!-- ! 치고 엔터 치면 html 문서 자동 완성-->
+<html lang="kr">
+  <head>
+    <link rel="stylesheet" href="css/my_styles.css" />
+    <!--link css: 라고 하고 엔터치면 자동 완성-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to KakaoTalk</title>
+  </head>
+  <body>
+    <div class="States_Bar">
+      <div class="States_Bar__coulmn">
+        <!-- BEN ( block element modifiy) 규칙
+          __ 는 객체의 사용처에 따라 명명하고
+          -- 는 객체의 수정 내용에 따라 명명한다
+        inputBox (inputbox 기본 클래스)
+        inputBox__price (inputbox 가 있고, 그 내용은 price)
+        inputBox__subject (inputbox 가 있고, 그 내용은 subject)
+        inputBox--RED (수정 클래스)
+        inputBOX--BIG (수정 클래스)
+        -->
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="States_Bar__coulmn">
+        <span>18:43</span>
+      </div>
+      <div class="States_Bar__coulmn">
+        <span>50%</span>
+        <i class="fas fa-battery-half fa-2x"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="Welcome_Header">
+      <h1 class="Welcome_Header_Title">Welcom to KakaoTalk</h1>
+      <p class="Welcome_Header_Subtext">
+        If you have a Kakao Account, log in with your email or phone number.
+      </p>
+    </header>
+
+    <form id="Welcome_Form">
+      <input type="text" placeholder="Email or phone number" />
+      <input type="password" placeholder="Password" />
+      <input type="submit" value="Log In" />
+      <input type="submit" value="Sign Up" />
+      <a href="#">Find kakao Account or Password</a>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
