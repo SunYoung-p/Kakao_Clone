@@ -1,0 +1,35 @@
+.States_Bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 5px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.States_Bar__coulmn {
+  width: 33%;
+}
+
+.States_Bar__coulmn:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+.States_Bar__coulmn:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.States_Bar__coulmn:first-child span {
+  margin-right: 5px;
+}
+
+.States_Bar__coulmn:last-child span {
+  margin-right: 5px;
+}
+.States_Bar__coulmn:last-child .fa-battery-half {
+  color: orange;
+  margin-right: 8px;
+}
