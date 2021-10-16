@@ -1,0 +1,14 @@
+.Nav__Bar {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+.Nav__List {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f9f9fa;
+  padding: 15px 35px;
+}
+.Nav__Btn a {
+  color: rgba(0, 0, 0, 0.7);
+}

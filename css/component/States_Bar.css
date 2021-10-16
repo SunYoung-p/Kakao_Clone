@@ -1,4 +1,10 @@
 .States_Bar {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  box-sizing: border-box; /* padding 추가 시, 전체 Box의 Width를 변경할 필요 없다.
+  padding 50 box 200일 때,  50+200 = 250이 아니라 50:150=200 으로 해도 상관없다고 알려주는 구문*/
+
   display: flex;
   justify-content: center;
   align-items: center;

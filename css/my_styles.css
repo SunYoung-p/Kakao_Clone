@@ -2,6 +2,7 @@
 @import "Variables.css";
 /* Component */
 @import "component/States_Bar.css";
+@import "component/Nav_Bar.css";
 /* Screens */
 @import "screen/login.css";
 
