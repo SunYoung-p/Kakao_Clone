@@ -6,7 +6,7 @@
 .Nav__List {
   display: flex;
   justify-content: space-between;
-  background-color: #f9f9fa;
+  background-color: var(--gray);
   padding: 15px 45px;
 }
 .Nav__Link {

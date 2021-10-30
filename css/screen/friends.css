@@ -1,0 +1,30 @@
+#friend_link {
+  background-color: var(--gray);
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+
+#friend_link span {
+  font-weight: 600;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+#friend_link i {
+  margin-left: 5px;
+  color: rgba(0, 0, 0, 0.25);
+}
+
+#friends_channel {
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: 700;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  margin-top: 25px;
+  margin-bottom: 28px;
+  font-size: 15px;
+
+  display: flex;
+  justify-content: space-between;
+  padding-top: 17px;
+}
