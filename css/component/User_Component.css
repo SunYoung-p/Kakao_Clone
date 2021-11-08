@@ -2,12 +2,15 @@
 .user_component__profile {
   display: flex;
   align-items: center;
+  width: 100%;
 }
 
 .user_component__profile:last-child {
   display: flex;
+  flex-direction: column;
   justify-content: right;
-  width: 100%;
+  align-items: flex-end;
+  width: 20%;
   color: rgba(0, 0, 0, 0.4);
   font-size: 15px;
   font-weight: 500;
@@ -15,13 +18,13 @@
 
 .user_component__profile:last-child span {
   margin-right: 7px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .user_component__photo {
   width: 75px;
   height: 75px;
-  border-radius: 30%;
+  border-radius: 35%;
   margin-right: 15px;
 }
 
@@ -42,9 +45,6 @@
 .user_component__subtitle {
   margin-top: 8px;
   color: rgba(0, 0, 0, 0.35);
-  font-size: 18px;
-}
-
-.user_component__screen {
-  margin: 15px var(--Header-LR-Margin);
+  font-size: 17px;
+  font-weight: 600;
 }

@@ -15,11 +15,7 @@
 }
 
 .Nav__Notify {
-  background-color: #ff6229;
-  color: white;
-  border-radius: 50%;
   display: flex;
-  font-weight: 600;
   justify-content: center;
   align-items: center;
   position: absolute;
@@ -31,6 +27,16 @@
   bottom: 15px;
   left: 18px;
 }
+
+.Nav__Notify___alram {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+}
+
 .Nav__Notify___ellisis {
   width: 5px;
   height: 5px;
