@@ -3,4 +3,6 @@
   --yellow: #fae100;
   --gray: #f9f9fa;
   --Header-LR-Margin: 20px;
+  --border: 1px solid rgba(0, 0, 0, 0.1);
+  --font-gray: rgba(0, 0, 0, 0.45);
 }

@@ -1,0 +1,43 @@
+.find__icons {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: var(--border);
+  margin-bottom: 18px;
+  padding-bottom: 20px;
+}
+.find__icon {
+  margin-top: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.find__icon i {
+  font-size: 32px;
+}
+.find__icon span {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 30px;
+  width: 80px;
+}
+
+.main__screen > span {
+  color: var(--font-gray);
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.main__words {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 240px;
+}
+
+.main__words--span-xl {
+  color: var(--font-gray);
+  font-weight: 600;
+  font-size: 21px;
+}
