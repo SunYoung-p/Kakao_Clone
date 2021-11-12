@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Find Screens</title>
+    <title>Menu Screens</title>
   </head>
   <body>
     <!-- basic screen component -->
@@ -24,12 +24,15 @@
       </div>
     </div>
     <header class="screen-header">
-      <h1 class="screen-header__title">Find</h1>
+      <h1 class="screen-header__title">More</h1>
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
-        <span class="Nav__Link"><i class="fas fa-cog fa-lg">
-          
-          <span class="Nav__Notify badge Nav__Notify___cog--ellisis"></span></i
+        <span><i class="fas fa-music fa-lg"></i></span>
+        <span class="Nav__Link"
+          ><i class="fas fa-cog fa-lg"
+            ><span
+              class="Nav__Notify badge Nav__Notify___cog--ellisis"
+            ></span></i
         ></span>
       </div>
     </header>
@@ -61,6 +64,21 @@
 
     <!-- Main Scrren -->
     <main class="main__screen">
+         <!-- my profile -->
+       <div class="user_component">
+        <div class="user_component__profile">
+          <img src="img/profile.jpg" class="user_component__photo" />
+          <div class=user_component__text">
+             <h4 class="user_component__title">Sunyong Park</h4>
+             <h6 class="user_component__subtitle">+1 787-493-4219 <i class="fas fa-exclamation-circle fa-red"></i></h6>
+          </div>
+          </div>
+        <div class="user_component__profile">
+            <span>21:22</span>
+            <div class="badge Nav__Notify___alram">1</div>
+        </div>
+      </div>
+
       <div class="find__icons">
         <div class="find__icon">
           <i class="fas fa-qrcode"></i><span>QR Code</span>
@@ -75,60 +93,6 @@
           <i class="far fa-envelope"></i><span>Invite</span>
         </div>
       </div>
-      <span>Recommended Friends</span>
-      <div class="main__words">
-        <span class="main__words--span-xl"
-          >You have no recommended friends.</span
-        >
-      </div>
-
-      <div class="open__chat-screen ">
-        <div class="open__chat-title">
-          <span class="open__chat-subtitle-left">Open Chat</span>
-          <span class="open__chat-subtitle-right">Go to Openchat Home ></span>
-        </div>
-        <div class="open__chat--item ">
-          <div class="open__chat--item--column">
-            <span class="open__chat--item-title">#BTS</span>
-            <span class="open__chat--item-subitle">#BTS#ARMY#FRIENDS</span>
-            <div class="open__chat--item-member">
-              <img src="img/01.png" />
-              <span>802 members | </span>
-              <h4>Active</h4>
-            </div>
-          </div>
-          <div class="open__chat--item--column">
-            <div class="open_chat--item-img">
-              <img src="img/01.png" class="open__chat--item-main-img" />
-              <div class="open__chat--item-like" />
-              <span>♥ 326</span>
-              </div>
-            </div>
-          </div>
-
-          
-        </div>
-        <div class="open__chat--item open__chat--item-border">
-          <div class="open__chat--item--column">
-            <span class="open__chat--item-title">Bts Gang~</span>
-            <span class="open__chat--item-subitle">#englishonly #ipurpleyou #jimin #taeta...</span>
-            <div class="open__chat--item-member">
-              <img src="img/01.png" />
-              <span>299 members | </span>
-              <h4>Active</h4>
-            </div>
-          </div>
-          <div class="open__chat--item--column">
-            <div class="open_chat--item-img">
-              <img src="img/05.png" class="open__chat--item-main-img" />
-              <div class="open__chat--item-like" />
-              <span>♥ 215</span>
-              </div>
-            </div>
-          </div>
-      </div>
-
-      
     </main>
 
     <script
