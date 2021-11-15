@@ -9,3 +9,14 @@
 .icon-xxl {
   font-size: 37px;
 }
+
+#kakao_icons-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.icons__text-style {
+  opacity: 0.4;
+  font-weight: 700;
+  margin-top: 10px;
+}

@@ -2,11 +2,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 18px;
   padding-bottom: 20px;
 }
 
-.border-bottom {
+.find__icons-margin-bottom {
+  padding-bottom: 37px;
+  margin-bottom: 22px;
+}
+.find__icons-border-bottom {
   border-bottom: var(--border);
 }
 
@@ -23,7 +26,10 @@
   text-align: center;
   vertical-align: middle;
   font-size: 18px;
-  margin-top: 30px;
+}
+
+.find__icon-margin-top {
+  margin-top: 18px;
 }
 
 .main__screen > span {
