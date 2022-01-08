@@ -6,6 +6,8 @@
 @import "component/Screen_Header.css";
 @import "component/User_Component.css";
 @import "component/badge.css";
+@import "component/Alt-Screen-Header.css";
+
 /* Screens */
 @import "screen/login.css";
 @import "screen/friends.css";
